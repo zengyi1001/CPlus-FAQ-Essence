@@ -1,6 +1,6 @@
 # CPlus-FAQ-Essence
 # 语法
-## “const X* p”, “X* const p” and “const X* const p”的区别是什么?
+## “const X* p”, “X* const p” 和 “const X* const p”的区别是什么?
 https://isocpp.org/wiki/faq/const-correctness#const-ptr-vs-ptr-const
 
 ## 什么是 “const成员函数”?
