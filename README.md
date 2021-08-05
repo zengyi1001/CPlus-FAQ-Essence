@@ -24,6 +24,9 @@ https://isocpp.org/wiki/faq/newbie#floating-pt-errs
 ## 为什么不能直接比较两个浮点数？
 https://isocpp.org/wiki/faq/newbie#floating-pt-errs
 
+## 如何在C代码里调用C++库函数
+https://isocpp.org/wiki/faq/mixing-c-and-cpp#call-cpp
+
 
 # 设计思想
 ## C++ 和 C 语言的区别是什么?
