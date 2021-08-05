@@ -18,6 +18,13 @@ https://isocpp.org/wiki/faq/newbie#comparisons-with-nan
 https://isocpp.org/wiki/faq/newbie#nan
 附加阅读理解：https://www.geeksforgeeks.org/nan-in-cpp-what-is-it-and-how-to-check-for-it/
 
+## 为什么浮点型数据会有精度不足问题？
+https://isocpp.org/wiki/faq/newbie#floating-pt-errs
+
+## 为什么不能直接比较两个浮点数？
+https://isocpp.org/wiki/faq/newbie#floating-pt-errs
+
+
 # 设计思想
 ## C++ 和 C 语言的区别是什么?
 https://isocpp.org/wiki/faq/c#c-diffs
