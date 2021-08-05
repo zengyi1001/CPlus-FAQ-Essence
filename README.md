@@ -1,4 +1,6 @@
-# CPlus-FAQ-Essence
+# CPlus-FAQ-Essence 
+https://isocpp.org/wiki/faq
+
 # 语法
 ## “const X* p”, “X* const p” 和 “const X* const p”的区别是什么?
 https://isocpp.org/wiki/faq/const-correctness#const-ptr-vs-ptr-const
