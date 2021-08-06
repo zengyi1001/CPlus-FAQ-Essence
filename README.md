@@ -27,6 +27,15 @@ https://isocpp.org/wiki/faq/newbie#floating-pt-errs
 ## 如何在C代码里调用C++库函数
 https://isocpp.org/wiki/faq/mixing-c-and-cpp#call-cpp
 
+## 什么时候应该使用引用，什么时候应该使用指针？
+https://isocpp.org/wiki/faq/references#refs-vs-ptrs
+
+## \<cxxx> 和 <xxx.h> 头文件的区别是什么？
+https://isocpp.org/wiki/faq/coding-standards#std-headers
+
+## 为什么这段代码会在输入非数字字符后陷入死循环
+https://isocpp.org/wiki/faq/input-output#stream-input-failure
+
 
 # 设计思想
 ## C++ 和 C 语言的区别是什么?
