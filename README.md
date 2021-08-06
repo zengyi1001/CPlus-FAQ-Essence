@@ -36,6 +36,45 @@ https://isocpp.org/wiki/faq/coding-standards#std-headers
 ## 为什么这段代码会在输入非数字字符后陷入死循环
 https://isocpp.org/wiki/faq/input-output#stream-input-failure
 
+## 什么是 tuple
+https://isocpp.org/wiki/faq/cpp11-library#tuple
+
+## std::function 和 std::bind
+https://isocpp.org/wiki/faq/cpp11-library#std-function
+
+## time相关工具
+https://isocpp.org/wiki/faq/cpp11-library#std-duration
+
+## 随机数生成
+https://isocpp.org/wiki/faq/cpp11-library#std-random
+
+## 指定范围的内存分配
+https://isocpp.org/wiki/faq/cpp11-library#scoped-allocator
+
+# 内存管理
+## 可以free一个new出来的指针吗？或者可以delete一个malloc出来的指针吗？
+https://isocpp.org/wiki/faq/freestore-mgmt#mixing-malloc-and-delete
+
+## delete语句执行前需要判断指针是否为nullptr吗？
+https://isocpp.org/wiki/faq/freestore-mgmt#delete-handles-null
+
+## 使用new创建对象时，如果构造函数抛出异常会不会产生内存泄漏？
+https://isocpp.org/wiki/faq/freestore-mgmt#new-doesnt-leak-if-ctor-throws
+
+## 如何让对象只能通过new创建，而不是local、global、namespace-scope、static等
+https://isocpp.org/wiki/faq/freestore-mgmt#static-create-methods
+
+## 什么是unique_ptr？
+https://isocpp.org/wiki/faq/cpp11-library#unique-ptr
+
+## 什么是shared_ptr？
+https://isocpp.org/wiki/faq/cpp11-library#shared-ptr
+
+## 什么是weak_ptr？
+https://isocpp.org/wiki/faq/cpp11-library#weak-ptr
+辅助阅读：https://en.cppreference.com/w/cpp/memory/weak_ptr
+
+
 
 # 设计思想
 ## C++ 和 C 语言的区别是什么?
@@ -46,3 +85,9 @@ https://isocpp.org/wiki/faq/c#is-c-a-subset
 
 ## 设计类应该从外向内（接口优先）还是从内向外（数据优先）? 
 https://isocpp.org/wiki/faq/operator-overloading#design-interfaces-first
+
+## 如何降低内存泄漏风险
+https://isocpp.org/wiki/faq/freestore-mgmt#memory-leaks
+
+## 需要检查new返回的结果是否为nullptr吗？
+https://isocpp.org/wiki/faq/freestore-mgmt#new-never-returns-null
