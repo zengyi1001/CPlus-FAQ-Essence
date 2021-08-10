@@ -48,8 +48,6 @@ https://isocpp.org/wiki/faq/cpp11-library#std-duration
 ### 随机数生成
 https://isocpp.org/wiki/faq/cpp11-library#std-random
 
-### 构造函数可以调用本类的另一个构造函数吗？
-https://isocpp.org/wiki/faq/ctors#init-methods
 
 ## 内存管理
 ### 可以free一个new出来的指针吗？或者可以delete一个malloc出来的指针吗？
@@ -77,6 +75,42 @@ https://isocpp.org/wiki/faq/cpp11-library#weak-ptr
 ### 指定范围的内存分配
 https://isocpp.org/wiki/faq/cpp11-library#scoped-allocator
 
+## 构造与析构
+### List X 与 List X() 是等同的吗？
+https://isocpp.org/wiki/faq/ctors#empty-parens-in-object-decl
+
+### 构造函数可以调用本类的另一个构造函数吗？
+https://isocpp.org/wiki/faq/ctors#init-methods
+
+### 如果member的初始化必须要用到另个一member怎么做？
+https://isocpp.org/wiki/faq/ctors#order-dependency-in-members
+
+### 构造函数内可以使用this指针吗？
+https://isocpp.org/wiki/faq/ctors#using-this-in-ctors
+
+### 如何使用“命名构造函数语法”？
+https://isocpp.org/wiki/faq/ctors#named-ctor-idiom
+
+### “Return by Value”函数形式会带来额外的拷贝和开销吗？
+https://isocpp.org/wiki/faq/ctors#return-by-value-optimization
+
+### 什么是静态成员的初始化顺序问题，如何避免？
+https://isocpp.org/wiki/faq/ctors#static-init-order
+https://isocpp.org/wiki/faq/ctors#static-init-order-on-first-use
+https://isocpp.org/wiki/faq/ctors#construct-on-first-use-v2
+https://isocpp.org/wiki/faq/ctors#nifty-counter-idiom
+https://isocpp.org/wiki/faq/ctors#static-init-order-on-first-use-members
+https://isocpp.org/wiki/faq/ctors#static-init-order-on-intrinsics
+
+### 为什么使用Foo x(Bar())语法定义变量x会产生链接错误？
+https://isocpp.org/wiki/faq/ctors#fn-decl-vs-obj-instantiation
+
+### explict 关键字的意义是什么？
+https://isocpp.org/wiki/faq/ctors#explicit-ctors
+
+### 如何保证构造函数的正确性？
+https://isocpp.org/wiki/faq/ctors#ctor-work-right
+
 ## 设计思想
 ### C++ 和 C 语言的区别是什么?
 https://isocpp.org/wiki/faq/c#c-diffs
@@ -92,3 +126,4 @@ https://isocpp.org/wiki/faq/freestore-mgmt#memory-leaks
 
 ### 需要检查new返回的结果是否为nullptr吗？
 https://isocpp.org/wiki/faq/freestore-mgmt#new-never-returns-null
+
