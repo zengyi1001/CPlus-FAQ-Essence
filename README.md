@@ -111,6 +111,9 @@ https://isocpp.org/wiki/faq/ctors#explicit-ctors
 ### 如何保证构造函数的正确性？
 https://isocpp.org/wiki/faq/ctors#ctor-work-right
 
+### 本地对象析构顺序是什么样的？
+https://isocpp.org/wiki/faq/dtors#order-dtors-for-locals
+
 ## 设计思想
 ### C++ 和 C 语言的区别是什么?
 https://isocpp.org/wiki/faq/c#c-diffs
