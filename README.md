@@ -114,6 +114,20 @@ https://isocpp.org/wiki/faq/ctors#ctor-work-right
 ### 本地对象析构顺序是什么样的？
 https://isocpp.org/wiki/faq/dtors#order-dtors-for-locals
 
+### 可以显示调用本地对象的析构函数吗？
+https://isocpp.org/wiki/faq/dtors#dont-call-dtor-on-local
+
+### 可以显示调用new对象的析构函数吗？
+https://isocpp.org/wiki/faq/dtors#dont-call-dtor-on-obj-allocd-via-new
+
+### 什么是"placement new"语法，什么情况下可以使用？
+https://isocpp.org/wiki/faq/dtors#placement-new
+
+### 如何替代new关键字从内存池创建对象
+https://isocpp.org/wiki/faq/dtors#memory-pools
+
+
+
 ## 设计思想
 ### C++ 和 C 语言的区别是什么?
 https://isocpp.org/wiki/faq/c#c-diffs
