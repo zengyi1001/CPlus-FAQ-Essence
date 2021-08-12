@@ -148,3 +148,11 @@ https://isocpp.org/wiki/faq/freestore-mgmt#memory-leaks
 ### 需要检查new返回的结果是否为nullptr吗？
 https://isocpp.org/wiki/faq/freestore-mgmt#new-never-returns-null
 
+### “友元”破坏了对象的封装吗？
+https://isocpp.org/wiki/faq/friends#friends-and-encap
+
+### 什么是“友元”无法被“继承”、“传递”和“互惠”
+https://isocpp.org/wiki/faq/friends#friendship-not-inherited-transitive
+
+### 什么是"Public" 、 "Private" 和 "Protected" 关键字的区别是什么？
+https://isocpp.org/wiki/faq/basics-of-inheritance#access-rules
