@@ -126,6 +126,10 @@ https://isocpp.org/wiki/faq/dtors#placement-new
 ### 如何替代new关键字从内存池创建对象
 https://isocpp.org/wiki/faq/dtors#memory-pools
 
+### 为什么我需要担心“自赋值”？如何处理这种情况？
+https://isocpp.org/wiki/faq/assignment-operators#self-assignment-why
+https://isocpp.org/wiki/faq/assignment-operators#self-assignment-how
+
 
 
 ## 设计思想
