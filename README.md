@@ -130,6 +130,44 @@ https://isocpp.org/wiki/faq/dtors#memory-pools
 https://isocpp.org/wiki/faq/assignment-operators#self-assignment-why
 https://isocpp.org/wiki/faq/assignment-operators#self-assignment-how
 
+## 面向对象
+### 虚函数和非虚函数调用有和区别？
+https://isocpp.org/wiki/faq/virtual-functions#dyn-binding
+
+### “友元”破坏了对象的封装吗？
+https://isocpp.org/wiki/faq/friends#friends-and-encap
+
+### 什么是“友元”无法被“继承”、“传递”和“互惠”
+https://isocpp.org/wiki/faq/friends#friendship-not-inherited-transitive
+
+### 什么是"Public" 、 "Private" 和 "Protected" 关键字的区别是什么？
+https://isocpp.org/wiki/faq/basics-of-inheritance#access-rules
+
+### 从底层角度看，虚函数调用经历了什么？
+https://isocpp.org/wiki/faq/virtual-functions#dyn-binding2
+
+### 什么情况下析构函数必须要是虚函数？
+https://isocpp.org/wiki/faq/virtual-functions#virtual-dtors
+
+### 为什么没有虚构造函数？
+https://isocpp.org/wiki/faq/virtual-functions#virtual-ctor-rationale
+
+### 可以在子对象里面隐藏父对象公开的成员吗？
+https://isocpp.org/wiki/faq/proper-inheritance#hiding-inherited-public
+
+### 为什么 Derived* → Base* 合法， 而 Derived** → Base** 不合法？
+https://isocpp.org/wiki/faq/proper-inheritance#derivedptrptr-to-baseptrptr
+
+### “装苹果的袋子” 是 “装水果的袋子” 的子类 吗？
+https://isocpp.org/wiki/faq/proper-inheritance#parkinglot-of-car-vs-vehicle
+https://isocpp.org/wiki/faq/proper-inheritance#array-derived-vs-base
+https://isocpp.org/wiki/faq/proper-inheritance#arrays-are-covariant
+
+### 如何让类无法被继承？
+https://isocpp.org/wiki/faq/strange-inheritance#final-classes
+
+### 如何让函数无法被子对象重载
+https://isocpp.org/wiki/faq/strange-inheritance#final-methods
 
 
 ## 设计思想
@@ -148,11 +186,4 @@ https://isocpp.org/wiki/faq/freestore-mgmt#memory-leaks
 ### 需要检查new返回的结果是否为nullptr吗？
 https://isocpp.org/wiki/faq/freestore-mgmt#new-never-returns-null
 
-### “友元”破坏了对象的封装吗？
-https://isocpp.org/wiki/faq/friends#friends-and-encap
 
-### 什么是“友元”无法被“继承”、“传递”和“互惠”
-https://isocpp.org/wiki/faq/friends#friendship-not-inherited-transitive
-
-### 什么是"Public" 、 "Private" 和 "Protected" 关键字的区别是什么？
-https://isocpp.org/wiki/faq/basics-of-inheritance#access-rules
