@@ -166,8 +166,16 @@ https://isocpp.org/wiki/faq/proper-inheritance#arrays-are-covariant
 ### 如何让类无法被继承？
 https://isocpp.org/wiki/faq/strange-inheritance#final-classes
 
-### 如何让函数无法被子对象重载
+### 如何让函数无法被子对象重载？
 https://isocpp.org/wiki/faq/strange-inheritance#final-methods
+
+### "私有继承" 和 "组成" 的关系是什么？
+https://isocpp.org/wiki/faq/private-inheritance#priv-inherit-like-compos
+
+### "保护继承"和"私有继承"的相同点与不同点
+https://isocpp.org/wiki/faq/private-inheritance#prot-vs-priv-inherit
+扩展阅读：https://stackoverflow.com/questions/860339/difference-between-private-public-and-protected-inheritance
+
 
 
 ## 设计思想
